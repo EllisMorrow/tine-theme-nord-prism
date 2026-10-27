@@ -2,11 +2,19 @@
 
 **蓝灰底色、雪色文字，让内容有清晰的位置。**
 
+[![发行附件下载量](https://img.shields.io/github/downloads/EllisMorrow/tine-theme-nord-prism/total?label=release%20downloads&color=88c0d0&labelColor=2e3440)](https://github.com/EllisMorrow/tine-theme-nord-prism/releases)
+
 [English](README.md) · [下载 theme.json](https://github.com/EllisMorrow/tine-theme-nord-prism/releases/latest/download/theme.json)
 
 Prism 系列的第一款主题：以 Nord 配色为基础，为 Tine 适配青色链接、紫色标签与琥珀色高亮。只提供颜色，保留 Tine 与用户自己的字体、排版设置。
 
 ![Nord · Prism 深色模式实拍](docs/nord-dark.png)
+
+### 浅色模式回退外观
+
+![Tine 浅色模式回退外观，并非 Nord 浅色配色](docs/nord-light-fallback.png)
+
+*本包只提供深色配色；这张截图展示 Tine 的浅色回退外观，不是 Nord 浅色版。*
 
 ## 安装
 
@@ -27,14 +35,7 @@ Prism 系列的第一款主题：以 Nord 配色为基础，为 Tine 适配青�
 
 主题提供全部 21 个受支持的深色颜色变量，不包含脚本、额外 CSS、字体或布局预设。语法高亮、任务标记及其它超出主题包 API 的样式由 Tine 控制。
 
-**本包不提供浅色配色。** 切换至浅色模式后使用 Tine 的回退外观。下面的截图用于兼容性展示，不是 Nord 浅色版。
-
-<details>
-<summary>查看浅色模式兼容性截图</summary>
-
-![Tine 浅色模式回退外观，并非 Nord 浅色配色](docs/nord-light-fallback.png)
-
-</details>
+**本包不提供浅色配色。** 切换至浅色模式后使用 Tine 的回退外观。深色图下方的浅色截图用于兼容性展示，不是 Nord 浅色版。
 
 ## 验证情况
 

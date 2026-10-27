@@ -7,6 +7,7 @@
 ![Mode: dark](https://img.shields.io/badge/mode-dark-2e3440?labelColor=272c36)
 ![Theme API: 0.2](https://img.shields.io/badge/Tine_theme_API-0.2-88c0d0?labelColor=2e3440)
 [![License: MIT](https://img.shields.io/badge/license-MIT-a3be8c?labelColor=2e3440)](LICENSE)
+[![Release downloads](https://img.shields.io/github/downloads/EllisMorrow/tine-theme-nord-prism/total?label=release%20downloads&color=88c0d0&labelColor=2e3440)](https://github.com/EllisMorrow/tine-theme-nord-prism/releases)
 
 [Download theme.json](https://github.com/EllisMorrow/tine-theme-nord-prism/releases/latest/download/theme.json) · [中文说明](README.zh-CN.md) · [Adaptation notes](docs/adaptation.md)
 
@@ -17,6 +18,12 @@ An independent **Nord** palette adaptation for Tine, and the first theme in the 
 ![Nord · Prism in Tine dark mode](docs/nord-dark.png)
 
 *Actual Tine screenshot supplied during Windows testing. The sample graph contains Tine's public welcome content.*
+
+### Light-mode fallback
+
+![Tine light-mode fallback, not a Nord light palette](docs/nord-light-fallback.png)
+
+*The package supplies dark colors only. This screenshot shows Tine's light-mode fallback, not a Nord light variant.*
 
 ## Install in a minute
 
@@ -42,14 +49,7 @@ All **21 supported color tokens** are supplied for dark mode. The package contai
 
 ## What happens in light mode?
 
-This package intentionally supplies **no light palette**. Switching to light mode uses Tine's fallback appearance. The image below documents that transition; it is **not a Nord light variant**.
-
-<details>
-<summary>View the light-mode compatibility screenshot</summary>
-
-![Tine light-mode fallback, not a Nord light palette](docs/nord-light-fallback.png)
-
-</details>
+This package intentionally supplies **no light palette**. Switching to light mode uses Tine's fallback appearance, shown directly below the dark preview above. It is **not a Nord light variant**.
 
 ## Testing and scope
 
