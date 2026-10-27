@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 — 2026-10-27
+
+- Add a complete 21-token light palette; retain the existing dark mapping.
+- Establish both light and dark as required modes for Prism packages.
+- Add fresh Windows screenshots of both included palettes, displayed directly in both READMEs.
+- Retain the Releases download-count badge and pin screenshot URLs to an immutable commit.
+
 ## 0.1.1 — 2026-10-27
 
 - First public release as Nord · Prism; stable package ID retained.

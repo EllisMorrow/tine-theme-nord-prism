@@ -2,13 +2,36 @@
   "schemaVersion": 1,
   "id": "io.github.ellismorrow.theme.nord",
   "name": "Nord · Prism",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "apiVersion": "0.2",
-  "description": "A dark-only Nord palette adaptation for Tine, using polar blue-gray surfaces, snow-colored text, cyan links and violet tags.",
+  "description": "A light and dark Nord palette adaptation for Tine: Snow Storm surfaces by day, polar blue-gray by night, with blue/cyan links, violet tags and amber highlights.",
   "author": "EllisMorrow",
   "license": "MIT",
   "source": "https://github.com/EllisMorrow/tine-theme-nord-prism",
   "modes": {
+    "light": {
+      "--ls-active-primary-color": "#355f7c",
+      "--ls-primary-background-color": "#eceff4",
+      "--ls-secondary-background-color": "#e5e9f0",
+      "--ls-tertiary-background-color": "#d8dee9",
+      "--ls-quaternary-background-color": "#d0d6e2",
+      "--ls-primary-text-color": "#3b4252",
+      "--ls-secondary-text-color": "#4c566a",
+      "--ls-title-text-color": "#2e3440",
+      "--ls-link-text-color": "#355f7c",
+      "--ls-link-text-hover-color": "#2e3440",
+      "--ls-tag-text-color": "#754b76",
+      "--ls-border-color": "rgba(76, 86, 106, 0.18)",
+      "--ls-guideline-color": "rgba(76, 86, 106, 0.22)",
+      "--ls-block-highlight-color": "#d7e3ec",
+      "--ls-block-bullet-color": "#65748a",
+      "--ls-selection-background-color": "#cad7e7",
+      "--ls-a-chosen-bg": "#d7e3ec",
+      "--ls-page-inline-code-bg-color": "#d8dee9",
+      "--ls-page-inline-code-color": "#3b4252",
+      "--ls-page-mark-bg-color": "#ead6a4",
+      "--ls-page-mark-color": "#2e3440"
+    },
     "dark": {
       "--ls-active-primary-color": "#88c0d0",
       "--ls-primary-background-color": "#2e3440",
@@ -34,7 +57,8 @@
     }
   },
   "screenshots": [
-    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-nord-prism/2b34e32f3fc06a4e3fae01e1ba7296a6e0a4418f/docs/nord-dark.png"
+    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-nord-prism/e1f2b02c44b9dff9d0bbe6907e50aee5e767c168/docs/nord-dark.png",
+    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-nord-prism/e1f2b02c44b9dff9d0bbe6907e50aee5e767c168/docs/nord-light.png"
   ],
   "portedFrom": {
     "ecosystem": "other",
