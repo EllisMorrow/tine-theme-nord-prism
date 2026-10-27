@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ellismorrow.theme.nord",
+  "name": "Nord · Prism",
+  "version": "0.1.1",
+  "apiVersion": "0.2",
+  "description": "A dark-only Nord palette adaptation for Tine, using polar blue-gray surfaces, snow-colored text, cyan links and violet tags.",
+  "author": "EllisMorrow",
+  "license": "MIT",
+  "source": "https://github.com/EllisMorrow/tine-theme-nord-prism",
+  "modes": {
+    "dark": {
+      "--ls-active-primary-color": "#88c0d0",
+      "--ls-primary-background-color": "#2e3440",
+      "--ls-secondary-background-color": "#272c36",
+      "--ls-tertiary-background-color": "#3a404c",
+      "--ls-quaternary-background-color": "rgb(61, 67, 79)",
+      "--ls-primary-text-color": "#d8dee9",
+      "--ls-secondary-text-color": "rgba(216, 222, 233, 0.71)",
+      "--ls-title-text-color": "#d8dee9",
+      "--ls-link-text-color": "rgb(182, 217, 226)",
+      "--ls-link-text-hover-color": "#d8dee9",
+      "--ls-tag-text-color": "#b48ead",
+      "--ls-border-color": "rgba(216, 222, 233, 0.084)",
+      "--ls-guideline-color": "rgba(216, 222, 233, 0.156)",
+      "--ls-block-highlight-color": "#28383d",
+      "--ls-block-bullet-color": "rgba(216, 222, 233, 0.71)",
+      "--ls-selection-background-color": "rgba(67, 76, 94, 0.8)",
+      "--ls-a-chosen-bg": "#28383d",
+      "--ls-page-inline-code-bg-color": "#3a404c",
+      "--ls-page-inline-code-color": "#d8dee9",
+      "--ls-page-mark-bg-color": "rgba(235, 203, 139, 0.18)",
+      "--ls-page-mark-color": "#ebcb8b"
+    }
+  },
+  "screenshots": [
+    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-nord-prism/main/docs/nord-dark.png"
+  ],
+  "portedFrom": {
+    "ecosystem": "other",
+    "name": "Nord",
+    "source": "https://github.com/nordtheme/nord",
+    "revision": "1cef71605416a222e57225b544540ce0fcec18d4",
+    "license": "MIT",
+    "authors": [
+      "Sven Greb"
+    ],
+    "relationship": "behavioral-port"
+  },
+  "aiDevelopment": "primary"
+}
