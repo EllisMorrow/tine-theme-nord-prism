@@ -15,6 +15,8 @@
 
 An independent **Nord** palette adaptation for Tine, and the first theme in the **Prism** collection. Both modes have their own complete palette: cool Snow Storm surfaces and blue links in light mode; polar blue-gray surfaces and cyan links in dark mode. Violet tags and amber highlights connect the pair. Typography and layout remain under your control.
 
+Explore the full [Prism theme gallery](https://github.com/martinkoutecky/tine/discussions/786) to compare all 29 themes in light and dark modes.
+
 ### Dark mode
 
 ![Nord · Prism in Tine dark mode](docs/nord-dark.png)

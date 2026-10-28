@@ -8,6 +8,8 @@
 
 Prism 系列的第一款主题，同时提供完整的浅色和深色配色：浅色采用 Nord 雪色背景、深蓝链接；深色采用蓝灰背景、青色链接。紫色标签和琥珀色高亮贯穿两种模式。只提供颜色，保留 Tine 与用户自己的字体、排版设置。
 
+在 [Prism 主题画廊](https://github.com/martinkoutecky/tine/discussions/786)中，可以直观比较全部 29 个主题的浅色与深色效果。
+
 ### 深色模式
 
 ![Nord · Prism 深色模式实拍](docs/nord-dark.png)
